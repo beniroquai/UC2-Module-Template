@@ -44,7 +44,7 @@ When you create a new insert, you have to make sure it follows the following des
 For the baseplate you must follow these dimensions:
 
 <p align=center>
-<img src="./IMAGES/UC2_Setupcreation_2.png" width=450>
+<img src="./IMAGES/MDK_CAD_scheme_base.jpg" width=450>
 <br><em>CAD for UC2 Cube baseplate</em>
 </p>
 
