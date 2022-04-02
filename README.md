@@ -3,124 +3,93 @@
 <a href="#logo" name="logo"><img src="https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/IMAGES/UC2_logo_text.png" width="400"></a>
 </p>
 
-# openUC2 *PROJECT_NAME*
+# openUC2 Template for your own Insert
+ 
 ---
 
-This repository will help you to build and setup *A NICE TOOL*.
 
-*DESCRIBE WHAT IT DOES AND WHAT IT IS FOR.*
+We try to keep UC2 as open as possible. One important step is to give you the tools at hand to create your own insert in Order to add own functionalities, parts, modules, etc. 
+This repository should help you creating inserts and understand the core idea behind the shape and how it can be used to add e.g. lenses, mirros, motors. 
 
-Curious to see what this looks like? Keep scrolling!
+If you have a more complex idea for a module, say a rotating diffuser, please feel free to reach out to us! We are happy to support your research with open-source tools! 
 
-*INCLUDE A NICE PICTURE AND/OR SCHEME.*
+A good resource is also the [***Module Developer Kit (MDK)***](https://github.com/openUC2/UC2-GIT/tree/master/MDK) that summarizes the core concept of UC2's modularity. 
 
-<p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/"></a>
+
+***What you will see here:***
+
+* UC2 Cube Inserts
+* Design files for 
+	* Autodesk Inventor
+	* OpenSCAD
+	* Fusion360
+	* STP- and STL-files
+* Technical drawings to replicate module in e.g. metal?
+* Tutorial to design your modules in Autodesk
+
+
+### UC2 Cube Inserts
+
+The cube inserts can be fully customized to adapt any optical element to the cubes. So far a perpendicular and diagonal version exists. The design files for Autodesk Inventor and OpenSCAD are available. Once you have a customized version, please share it so that the open-aspect of the system reaches its full potential :)
+
+Since the cube is point symmetric around the origin, the inserts can be rotated in all directions and bridges external components to the modules by acting as an open-standard.
+
+When you create a new insert, you have to make sure it follows the following design criteria (e.g. dimensions):
+
+<p align=“center”>
+<img src=“./IMAGES/MDK_CAD_scheme_perpendicular.jpg” width=“450”>
+<br><em>Figure 5a: Available UC2 components.</em>
 </p>
 
-The overall price is in the range *OF LESS THAT A ZILLION*.
+For the baseplate you must follow these dimensions:
 
-
-***Features:***
-* IT MOVES?!
-* IT TAKES IMAGES?!
-* IT DOES YOUR LAUNDRY?!
-
-
-# Table of Content
-* **[Software](#-software)**
-* **[Hardware](#-hardware)**
-* **[Bill of materials](#-bill-of-materials)**
-* **[Electronics](#-electronics)**
-* **[Results](#-results)**
-
-
-## In-Action
-*SHARE YOUR FANCY GIF HERE. IT MOVES!*
-
-<p align="center">
-<a href="#logo" name="logo"><img src="./IMAGES/" width="600"></a>
-</p>
-
-
-# Software
-*HOW DO I CONTROL THIS THING?*
-
-## Custom Python code *IF APPLICABLE*
-We also provide a code example for driving the device using a python driver. Please refer to the code and the package in the folder [PYTHON](./PYTHON).
-
-## *CUSTOM FANCY SOFTWARE*
-We also provide *SOME SORCERY* for driving the device. Find the files in folder [*MY_AWESOME_SOFTWARE*]().
-
-# Hardware
-
-Below we describe how the device can be build and assembled in order to replicate the whole system as shown in the rendering above. One needs additional parts that can be found in the core [openUC2 repository](https://github.com/bionanoimaging/UC2-GIT).
-
-
-## Bill of material
-
-Below you will find all components necessary to build this device
-
-### 3D printing files
-
-All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (Galaxy Black) at layer height x.x mm and infill xx%.
-
-
-|  Type | Details  |  Price | Link  |
-|---|---|---|---|
-| *FANCY* Holder |  *IT HOLD OTHER FANCY PARTS* |  x,xx € | [Part.stl](./STL/)  |
-
-
-### Additional parts
-This is used in the current version of the setup
-
-|  Type | Details  |  Price | Link  |
-|---|---|---|---|
-| *FANCY* Part | *IT DOES SOME MAGIC* |  xx € | [My favourite online shop]()  |
-
-### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. *FOR ANOTHER FORMAT, GET YOUR OWN FOLDER.*
-
-
-### Electronics
-*THE FANCY ELECTRONICS TO RUN THE MOTOR! ...OR WHATEVER YOU USE THERE.*
-
-
-### Assembly of the DEVICE
-
-***1.*** *These are the parts needed for the DEVICE*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *Start by ...*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *Continue with ...*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
-
-***2.*** *DONE! LOOK AT THE BEAUTY!*
-
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
+<p align=“center”>
+<img src=“./IMAGES/UC2_Setupcreation_2.png” width=“450">
+<br><em>Figure 5b: Playground for the UC2 setup creation.</em>
 </p>
 
 
-## Showcase
-*AWESOME RESULTS!*
+The CAD templates for Autodesk Inventor 2022 (```.ipt```) and ```STL/STEP```-standard can be found in the [INVENTOR](./INVENTOR)-folder and  [STL](./STL)/ [STP](./STP)-folder .
 
-<p align="center">
-<a> <img src="./IMAGES/" width="300"></a>
-</p>
 
-***Fig 1.*** *MY MOST AWSOME IMAGE*
+
+## Autodesk Inventor 2022 Design files
+
+All files can be found in the folder [INVENTOR](./INVENTOR).
+
+***Steps to work on the files:***
+
+1. Open Autodesk Inventor 2022
+2. Create a new project
+3. Open the Assembly file: `Assembly_Cube_Template_v3.iam`
+4. Get yourself familiar with the:
+- Cube
+- Baseplate
+- Insert
+5. Try modifying the file `20_Cube_Insert_Template_v3.ipt` so that you can mount your inidividual files
+
+### Videotutorial
+
+We have a dedicated video tutorial to show how you can create your own insert.
+**Video Tutorial on How to design a Cube Insert (Perpendicular to the optical axis)**  
+**The tutorial shows a v2 insert - the principle is the same but the dimensions differ!**
+
+[![UC2 YouSeeToo - How to design an insert](./IMAGES/UC2_Insert_design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
+
+
+
+
+## OpenSCAD Design files
+
+
+All files can be found in the folder [OPENSCAD](./OPENSCAD).
+
+***Steps to work on the files:***
+
+1. Open OpenSCAD
+2. Open the file `UC2_Lens_insert_v2.scad`
+3. Try to understand what each parameter modifies in the geometry of the cube insert
+4. Render and export as STL
 
 
 ## Get Involved
