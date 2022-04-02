@@ -36,21 +36,19 @@ Since the cube is point symmetric around the origin, the inserts can be rotated 
 
 When you create a new insert, you have to make sure it follows the following design criteria (e.g. dimensions):
 
-<p align=“center”>
-<img src=“./IMAGES/MDK_CAD_scheme_perpendicular.jpg” width=“450”>
-<br><em>Figure 5a: Available UC2 components.</em>
+<p align=center>
+<img src=“./IMAGES/MDK_CAD_scheme_perpendicular.jpg” width=450>
+<br><em>CAD for UC2 Cube insert</em>
 </p>
 
 For the baseplate you must follow these dimensions:
 
-<p align=“center”>
-<img src=“./IMAGES/UC2_Setupcreation_2.png” width=“450">
-<br><em>Figure 5b: Playground for the UC2 setup creation.</em>
+<p align=center>
+<img src=“./IMAGES/UC2_Setupcreation_2.png” width=450>
+<br><em>CAD for UC2 Cube baseplate</em>
 </p>
 
-
 The CAD templates for Autodesk Inventor 2022 (```.ipt```) and ```STL/STEP```-standard can be found in the [INVENTOR](./INVENTOR)-folder and  [STL](./STL)/ [STP](./STP)-folder .
-
 
 
 ## Autodesk Inventor 2022 Design files
