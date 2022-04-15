@@ -95,6 +95,16 @@ All files can be found in the folder [OPENSCAD](./OPENSCAD).
 3. Try to understand what each parameter modifies in the geometry of the cube insert
 4. Render and export as STL
 
+## Technical Drawings
+
+You can find additional information about the cube in the folder [CAD](./CAD).
+
+### CAD file for the cube (injection molded / IM)
+
+<p align=center>
+<img src="./IMAGES/10_Cube_1x1_IM.png" width=750>
+<br><em>CAD for UC2 Cube (IM)</em>
+</p>
 
 ## Get Involved
 
