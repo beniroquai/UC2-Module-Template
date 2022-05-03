@@ -85,8 +85,9 @@ We have a dedicated video tutorial to show how you can create your own insert.
 
 ## OpenSCAD Design files
 
-
 All files can be found in the folder [OPENSCAD](./OPENSCAD).
+
+*Alternatively* you can also find the files in the Thingiverse Universe that allows you to modify certain parameters in the file without installing openSCAD. You can find it here [Thingiverse](https://www.thingiverse.com/openuc2/designs).
 
 ***Steps to work on the files:***
 
